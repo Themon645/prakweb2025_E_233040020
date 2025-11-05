@@ -4,7 +4,7 @@
   class Rumah {
     // -bagian property-
     public $warna = "putih";
-    public $jumlahPintu = 4;
+    public $jumlahKamar = 4;
     public $alamat = "Jl. Pasundan No. 1";
 
     //-bagian method-
