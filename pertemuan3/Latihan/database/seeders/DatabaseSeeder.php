@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Membuat 5 User dengan data Indonesia
+        // Membuat 5 User 
         $users = [
             ['name' => 'Budi Santoso', 'username' => 'budisantoso', 'email' => 'budi@example.com'],
             ['name' => 'Siti Nurhaliza', 'username' => 'sitinur', 'email' => 'siti@example.com'],
@@ -46,7 +46,7 @@ class DatabaseSeeder extends Seeder
             'slug' => 'pendidikan',
         ]);
 
-        // Membuat 10 Posts dengan konten Indonesia
+        // Membuat 10 Posts 
         $postsData = [
             [
                 'title' => 'Perkembangan Artificial Intelligence di Indonesia',
