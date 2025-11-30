@@ -35,9 +35,9 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
-        // Membuat 2 kategori
-        $teknologi = Category::create(['name' => 'Teknologi']);
-        $kesehatan = Category::create(['name' => 'Kesehatan']);
+        // Membuat 2 kategori dengan slug
+        $teknologi = Category::create(['name' => 'Teknologi', 'slug' => 'teknologi']);
+        $kesehatan = Category::create(['name' => 'Kesehatan', 'slug' => 'kesehatan']);
 
         // Membuat 10 posts dengan konten Indonesia
         $posts = [
