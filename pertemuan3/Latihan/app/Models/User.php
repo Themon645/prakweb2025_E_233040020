@@ -42,4 +42,5 @@ class User extends Authenticatable
         return $this->hasMany(Post::class, 'user_id');
         // 'user-Id' adalah foreign key di tabel posts yang merujuk ke tabel users_id
     }
+    
 }

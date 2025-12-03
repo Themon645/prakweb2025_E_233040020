@@ -1,4 +1,4 @@
-<x-layout title="Daftar Posts">
+<x-dashboard-layout :title="'Daftar Posts'">
     <h1 class="text-4xl font-bold text-gray-800 mb-8">Daftar Posts</h1>
 
     <div class="space-y-6">
@@ -41,4 +41,4 @@
             </article>
         @endforeach
     </div>
-</x-layout>
+</x-dashboard-layout>

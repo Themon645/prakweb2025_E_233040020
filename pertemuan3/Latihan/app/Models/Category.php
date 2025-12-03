@@ -21,3 +21,5 @@ class Category extends Model
         // 'category_id' adalah foreign key di tabel posts yang merujuk ke tabel categories_id
         // artinya : satu kategori bisa memiliki banyak postingan
     }
+
+    

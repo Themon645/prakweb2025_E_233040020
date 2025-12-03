@@ -13,4 +13,12 @@ class PostController extends Controller
         $posts = Post::all();
         return view('Posts', compact('posts'));
     }
+
+    public function show(post $post)
+    {
+        // menggunakan with() untuk mengatasi n+1 problem
+        $post->load('author', 'category');
+        return view('PostDetail', compact('post'));
+    }
+
 }
