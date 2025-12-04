@@ -37,7 +37,7 @@
         </div>
     </main>
 
-    <footer class="bg-gray-800 text-white p-4 text-center mt-auto">
+    <footer class="bg-gray-800 text-white p-4 text-center mt-auto fixed bottom-0 w-full">
         <p>&copy; {{ date('Y') }} Latihan Laravel. Dibuat dengan Tailwind CSS.</p>
     </footer>
 
